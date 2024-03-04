@@ -1,0 +1,133 @@
+html {
+  background: #0c6c9d;
+}
+
+#timetables-title {
+  color: black;
+}
+
+body {
+  text-align: center;
+  width: 700px;
+  padding: 30px 50px;
+  margin: 20px auto;
+  border-radius: 20px;
+  background: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+table {
+  border: 1px solid red;
+  margin: 0px auto;
+}
+
+td {
+  border: 1px dotted blue;
+  padding: 10px;
+}
+
+#row-1 {
+  background-color: #053561;
+  color: white;
+}
+
+.block {
+  background-color: black;
+  color: white;
+}
+
+.time {
+  font-size: 8px;
+  font-style: italic;
+}
+
+.subject:hover {
+  background: #06413a;
+  color: white;
+  cursor: cell;
+  font-size: 12px;
+  transition: font-size 0.5s, background 0.5s, color 0.5s;
+}
+
+/* ----------------Socials Table -------------------------- */
+/* Social media logos */
+img {
+  width: 50px;
+  height: 50px;
+}
+
+#socials-table {
+  background: #053561;
+  border-radius: 30px;
+  border-color: transparent;
+  padding-top: 20px;
+  padding: 20px 30px;
+  margin: 20px auto;
+}
+
+/* Selects all <td> that are descendents of #socials-table */
+#socials-table td {
+  border: transparent;
+  padding: 0;
+}
+
+#find-me {
+  font-weight: bold;
+}
+
+/* ----------------College Table -------------------------- */
+/* Whole college table */
+#college-table {
+  background: lightblue;
+  border: 1px solid black;
+  border-radius: 0px;
+}
+
+/* College table rows */
+#college-table td {
+  border: 1px solid black;
+  padding: 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Div container with title and table */
+#container {
+  background-color: lightblue;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* Title */
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: lightseagreen;
+}
+
+/* Colors */
+.blue {
+  color: blue;
+}
+
+.pink {
+  color: pink;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.maroon {
+  color: maroon;
+}
+
+/* Lab */
+#lab {
+  color: green;
+}
